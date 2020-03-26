@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.hixcoder.learnarabic">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".iv1_color"
+            android:screenOrientation="sensorLandscape">
+            <intent-filter>
+                <action android:name="com.hixcoder.iv1_color" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".iv9_months"
+            android:screenOrientation="sensorLandscape">
+            <intent-filter>
+                <action
+                    android:name="com.hixcoder.iv9_months"/>
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".iv8_days"
+            android:screenOrientation="sensorLandscape">
+            <intent-filter>
+                <action
+                    android:name="com.hixcoder.iv8_days" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".iv7_searchplay"
+            android:screenOrientation="sensorLandscape">
+            <intent-filter>
+                <action android:name="com.hixcoder.iv7_searchplay" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".iv3_alphabet"
+            android:screenOrientation="sensorLandscape">
+            <intent-filter>
+                <action android:name="com.hixcoder.iv3_alphabet" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".iv6_animals"
+            android:screenOrientation="sensorLandscape">
+            <intent-filter>
+                <action android:name="com.hixcoder.iv6_animals" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".iv5_vegetable"
+            android:screenOrientation="sensorLandscape">
+            <intent-filter>
+                <action android:name="com.hixcoder.iv5_vegetable" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".iv4_fruit"
+            android:screenOrientation="sensorLandscape">
+            <intent-filter>
+                <action android:name="com.hixcoder.iv4_fruit" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".iv2_numbers"
+            android:screenOrientation="sensorLandscape">
+            <intent-filter>
+                <action android:name="com.hixcoder.iv2_numbers" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="sensorLandscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

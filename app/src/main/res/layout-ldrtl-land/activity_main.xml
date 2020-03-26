@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/font0">
+
+    <LinearLayout
+        android:weightSum="10"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_weight="3"
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:paddingEnd="10dp"
+                android:id="@+id/iv3"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/img_font_4"
+                android:onClick="ButtonAction"
+                tools:ignore="OnClick" />
+
+            <ImageView
+                android:onClick="ButtonAction"
+                tools:ignore="OnClick"
+                android:paddingEnd="10dp"
+                android:id="@+id/iv2"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/img_font_5" />
+
+            <ImageView
+                android:onClick="ButtonAction"
+                tools:ignore="OnClick"
+                android:id="@+id/iv1"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/img_font_8" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="3"
+            android:layout_height="200dp"
+            android:layout_width="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+            <ImageView
+                android:onClick="ButtonAction"
+                tools:ignore="OnClick"
+                android:id="@+id/iv6"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:paddingEnd="10dp"
+                app:srcCompat="@drawable/img_font_2" />
+
+            <ImageView
+                android:id="@+id/iv5"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:onClick="ButtonAction"
+                android:paddingEnd="10dp"
+                app:srcCompat="@drawable/img_font_1"
+                tools:ignore="OnClick" />
+
+            <ImageView
+                android:onClick="ButtonAction"
+                tools:ignore="OnClick"
+                android:id="@+id/iv4"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/img_font_3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="3"
+            android:layout_height="200dp"
+            android:layout_width="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+            <ImageView
+                android:onClick="ButtonAction"
+                tools:ignore="OnClick"
+                android:id="@+id/iv9"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:paddingEnd="10dp"
+                app:srcCompat="@drawable/img_font_7" />
+
+            <ImageView
+                android:id="@+id/iv8"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:onClick="ButtonAction"
+                android:paddingEnd="10dp"
+                app:srcCompat="@drawable/img_font_6"
+                tools:ignore="OnClick" />
+
+            <ImageView
+                android:onClick="ButtonAction"
+                tools:ignore="OnClick"
+                android:id="@+id/iv7"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/img_font_9" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</androidx.core.widget.NestedScrollView>
